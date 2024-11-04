@@ -10,6 +10,16 @@ namespace P11ZadanieZawodnicy
     {
         static void Main(string[] args)
         {
+            ManagerZawodnikow mz = new ManagerZawodnikow();
+            Zawodnik[] zawodnicy = mz.WczytajZawodnikow();
+
+            foreach (var z in zawodnicy)
+            {
+                Console.WriteLine(z.Imie + " " + z.Nazwisko+
+                    " " + z.Kraj);
+            }
+
+            Console.ReadKey();
         }
     }
 }
