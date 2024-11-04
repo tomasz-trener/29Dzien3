@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05ZadanieManagerTekstu", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06ZadaniePogoda", "P06ZadaniePogoda\P06ZadaniePogoda.csproj", "{9D6F4788-AFC1-4521-A714-BBD1F24590F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07Enumeratory", "P07Enumeratory\P07Enumeratory.csproj", "{789BE49E-1508-49CC-B0D1-991EEBB46E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{9D6F4788-AFC1-4521-A714-BBD1F24590F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D6F4788-AFC1-4521-A714-BBD1F24590F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D6F4788-AFC1-4521-A714-BBD1F24590F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789BE49E-1508-49CC-B0D1-991EEBB46E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789BE49E-1508-49CC-B0D1-991EEBB46E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789BE49E-1508-49CC-B0D1-991EEBB46E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789BE49E-1508-49CC-B0D1-991EEBB46E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

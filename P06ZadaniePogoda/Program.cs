@@ -10,6 +10,19 @@ namespace P06ZadaniePogoda
     {
         static void Main(string[] args)
         {
+            ManagerPogody managerPogody = new ManagerPogody();
+
+            try
+            {
+                double temperatura = managerPogody.PodajTemperature("warszawa", "dCelsjusz");
+                Console.WriteLine(temperatura);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Nie udało się popbrac temperatury");
+            }
+            Console.ReadKey();
         }
     }
 }
