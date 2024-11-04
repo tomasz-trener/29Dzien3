@@ -8,7 +8,7 @@ namespace P10ZadanieBiblioteka
 {
     internal class Karta
     {
-         public string NrKarty { get; set; }
+        public string NrKarty { get; set; }
         public string Tytul { get; set; }
         public int Wydanie { get; set; }
         public Karta Nastepne { get; set; }

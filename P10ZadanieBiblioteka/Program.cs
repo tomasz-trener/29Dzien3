@@ -67,6 +67,8 @@ namespace P10ZadanieBiblioteka
 
             Karta k2 = new Karta();
             k.Nastepne = k2;
+
+            Autor a1 = k2.Autorzy[0];
         }
     }
 }

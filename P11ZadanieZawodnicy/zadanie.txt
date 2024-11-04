@@ -1,0 +1,8 @@
+Wczytaj z http://tomaszles.pl/wp-content/uploads/2019/06/zawodnicy.txt
+
+dane do tablicy typu Zawodnik
+
+Potrzebujemy klasê: 
+Zawodnik
+ManagerZawodnikow z metod¹: public Zawodnik[] WczytajZawodnikow()
+
