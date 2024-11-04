@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="podsumowanie.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="zadanie.txt" />
