@@ -54,7 +54,7 @@ W Twoim przyk³adzie mamy do czynienia z dwiema klasami w jêzyku C#: `Zawodnik` i
 ### Klasa `ManagerZawodnikow`
 
 1. **Rola i Nazwa:**
-   - Jest to **klasa us³ugowa** lub **klasa mened¿erska**.
+   - Jest to **klasa us³ugowa**.
    - Nazwa sugeruje, ¿e zajmuje siê zarz¹dzaniem obiektami typu `Zawodnik`.
 
 2. **Charakterystyka:**
