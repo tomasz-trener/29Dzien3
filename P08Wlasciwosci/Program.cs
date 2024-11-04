@@ -35,7 +35,7 @@ namespace P08Wlasciwosci
 
             managerPogody.SzukanyZnak = "$";
 
-            string s = managerPogody.AdresPodstawowy;
+            string s2 = managerPogody.AdresPodstawowy;
             managerPogody.AdresPodstawowy = "xx";
           
             managerPogody.PodajTemperature("Warszawa", Jednostka.Kelvin);
