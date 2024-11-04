@@ -43,12 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Autor.cs" />
+    <Compile Include="Cena.cs" />
+    <Compile Include="Czytelnik.cs" />
+    <Compile Include="Karta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sygnatura.cs" />
+    <Compile Include="Wypozyczenie.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="biblioteka.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="zadanie.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
