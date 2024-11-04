@@ -1,0 +1,18 @@
+Stwórz klasê ManagerTekstu, która bêdzie s³u¿y³a do analizy tekstów. 
+Klasa powinna zawieraæ metody do realizacji poni¿szych zadañ:
+Podstawowe zadanie:
+
+    Wczytanie zdania: Klasa powinna udostêpniaæ funkcjonalnoœæ wczytania dowolnego zdania. 
+    Na przyk³ad, zdanie mo¿e wygl¹daæ tak: "Ala ma kota".
+
+    Znalezienie najd³u¿szego wyrazu: Na podstawie wczytanego zdania, klasa powinna byæ w stanie zwróciæ najd³u¿szy wyraz
+    w zdaniu.
+
+    Obs³uga b³êdów: W przypadku, gdy wczytane zdanie nie zawiera ¿adnego wyrazu 
+    (np. jest puste lub zawiera tylko bia³e znaki), metoda powinna rzucaæ odpowiednim b³êdem.
+
+Rozszerzenie:
+
+    Wyszukiwanie wielu najd³u¿szych wyrazów: Klasa powinna zostaæ rozszerzona o funkcjonalnoœæ, 
+    która pozwoli na zwrócenie wszystkich najd³u¿szych wyrazów w przypadku, gdy takich wyrazów jest wiêcej ni¿ jeden.
+    Zaimplementuj klasê ManagerTekstu tak, aby spe³nia³a wszystkie wymagania opisane powy¿ej.

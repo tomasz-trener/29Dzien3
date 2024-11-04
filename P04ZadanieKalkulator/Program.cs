@@ -25,7 +25,7 @@ namespace P04ZadanieKalkulator
                 //File f = new File();
                 //f.App
 
-                File.AppendAllText(@"c:\dane\error\errorlog", ex.Message);
+                File.AppendAllText(@"c:\dane\error\errorlog.txt", ex.Message);
             }
             Console.ReadKey();
       
