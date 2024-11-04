@@ -1,0 +1,22 @@
+Stwórz klasê o nazwie ManagerPogody,
+która bêdzie udostêpniaæ funkcjonalnoœæ pozwalaj¹c¹ na uzyskanie informacji o temperaturze dla wybranego miasta.
+Wymagania
+
+    Klasa powinna zawieraæ metodê o nazwie PodajTemperature, która przyjmuje dwa argumenty:
+        Nazwa miasta, dla którego chcemy poznaæ temperaturê (typ string).
+        Jednostka, w której chcemy otrzymaæ wynik (typ string). Dostêpne jednostki to: "Celcjusz", "Farenheit" i "Kelvin".
+
+    Metoda PodajTemperature powinna zwracaæ temperaturê jako wartoœæ typu double.
+
+    Je¿eli podana jednostka nie jest obs³ugiwana, metoda powinna rzuciæ wyj¹tkiem z odpowiednim komunikatem.
+
+Przyk³ad u¿ycia
+ManagerPogody manager = new ManagerPogody();
+double temperatura = manager.PodajTemperature("Warszawa", "Celcjusz");
+
+Po wykonaniu powy¿szego kodu, zmienna temperatura powinna zawieraæ wartoœæ temperatury dla miasta Warszawa w jednostkach Celcjusza.
+
+Dodatkowe informacje
+
+    Zak³adamy, ¿e klasa korzysta z zewnêtrznego API lub innej formy dostêpu do danych o pogodzie.
+    Staraj siê, aby Twoja implementacja by³a jak najbardziej modularna i ³atwa do rozbudowy w przysz³oœci.
