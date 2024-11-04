@@ -35,6 +35,13 @@ namespace P02WlasneKlasy
                                  // do nowo zadeklarowanej zmiennej o nazwie k3, 
                                  // ,która jest typu Kalkulator 
                                  // efekt: 2 zmienne, wksazujące na ten sam obiekt 
+
+            StringBuilder sb = new StringBuilder();
+            sb.Append("xx");
+
+            StringBuilder sb2;
+           // sb2 = new StringBuilder();
+           // sb2.Append("yy");
         }
     }
 }

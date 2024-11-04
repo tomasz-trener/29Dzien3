@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01TypyZmiennych", "P01Typy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02WlasneKlasy", "P02WlasneKlasy\P02WlasneKlasy.csproj", "{9C0F013D-A0E2-4499-8BCD-281B7D9AE150}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03KlasaKalkulator", "P03KlasaKalkulator\P03KlasaKalkulator.csproj", "{0E7A8213-7777-486A-94B9-3DC954F564D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04ZadanieKalkulator", "P04ZadanieKalkulator\P04ZadanieKalkulator.csproj", "{37FBB5C9-7FBE-4721-BD20-CDA9B723486D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9C0F013D-A0E2-4499-8BCD-281B7D9AE150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C0F013D-A0E2-4499-8BCD-281B7D9AE150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C0F013D-A0E2-4499-8BCD-281B7D9AE150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7A8213-7777-486A-94B9-3DC954F564D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7A8213-7777-486A-94B9-3DC954F564D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7A8213-7777-486A-94B9-3DC954F564D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7A8213-7777-486A-94B9-3DC954F564D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FBB5C9-7FBE-4721-BD20-CDA9B723486D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FBB5C9-7FBE-4721-BD20-CDA9B723486D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FBB5C9-7FBE-4721-BD20-CDA9B723486D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FBB5C9-7FBE-4721-BD20-CDA9B723486D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
